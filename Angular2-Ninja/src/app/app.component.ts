@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'TechPad';
   name:'Come and get your dreams fulfill';
+  myBoolean=true;
+  west="I am from Root Component";
+
 }

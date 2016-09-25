@@ -13,5 +13,8 @@ export class HomeComponent implements OnInit {
   }
 
   Myhicken='This is my Chicked';
+  alertMe=function(val){
+    alert("Hey Boy"+val);
+  }
 
 }
