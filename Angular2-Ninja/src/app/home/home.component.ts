@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -6,18 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
+@Input() ninja;
   constructor() { }
 
   ngOnInit() {
   }
 
-  Myhicken='This is my Chicked';
-  ninja={
-name:"Rajat",
-belt:"Black"
 
-  }
+  Myhicken='This is my Chicked';
+//   ninja={
+// name:"Rajat",
+// belt:"Black"
+
+//   };
   alertMe=function(val){
     alert("Hey Boy"+val);
   }

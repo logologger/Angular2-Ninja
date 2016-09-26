@@ -10,5 +10,10 @@ export class AppComponent {
   name:'Come and get your dreams fulfill';
   myBoolean=true;
   west="I am from Root Component";
+   ninja={
+name:"Boss",
+belt:"Black"
+
+  };
 
 }
