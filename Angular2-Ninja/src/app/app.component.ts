@@ -15,5 +15,8 @@ name:"Boss",
 belt:"Black"
 
   };
+  yell=function(event){
+  	alert("Yell works");
+  }
 
 }
